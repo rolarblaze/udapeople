@@ -96,11 +96,11 @@ jobs:
           keys: [backend-build]
       # Your job code here
       - run: 
-        name: Run backend test
-        command:
-          cd backend
-          npm install
-          npm run test
+          name: Run backend test
+          command:
+            cd backend
+            npm install
+            npm run test
             
   # scan-frontend:
   #   docker:
